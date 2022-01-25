@@ -1,0 +1,148 @@
+@media print {
+  html,
+  body {
+    margin: 0;
+    font-family: 'cmu-serif-roman';
+    background-color: white;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto;
+    background-color: hsl(160deg 45% 60%);
+    padding: 5px;
+    position: relative;
+    top: 0mm;
+    left: 0;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50mm;
+  }
+  .grid-container0{
+    margin-bottom: 50mm;
+  }
+  #Calendrier{
+    position: relative;
+    top: 10mm;
+    margin: 5mm;
+  }
+
+  canvas{
+    position: absolute;
+  }
+  .date{
+    font-size: 12pt;
+    top: 0px;
+    position: relative;
+    left: 0px;
+    margin: 0;
+    /* float: left; */
+    display: block;
+  }
+  .nombreDate{
+    top: -3px;
+    float: right;
+    right: 0px;
+    display: block;
+    font-family: 'cmu-serif-bold';
+    font-size: 16pt;
+    position: relative;
+    margin: 0px;
+  }
+  .month{
+    padding-left: 15px;
+    top: 15px;
+    font-size: 18pt;
+    height: 50px;
+    position: relative;
+    color: hsl(0 0% 30% / 1);
+    padding-top: 10px;
+    padding-right: 15px;
+    left: 0;
+    display: block;
+    font-family: 'cmu-serif-bold';
+    width: fit-content;
+    border: 1px solid hsl(160deg 45% 60%);
+    background-color: hsl(160deg 45% 60%);
+  }
+  .blank-item {
+    background-color: hsl(160deg 45% 60%);
+    border: 1px solid hsl(160deg 45% 60%);
+    color: hsl(0 0% 30% / 1);
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 0px 3px rgb(255 255 255 / 80%) inset;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid hsl(160deg 45% 60%);
+    color: hsl(0 0% 30% / 1);
+    padding: 14px;
+    text-align: left;
+    float: left;
+    min-width: 6vw;
+    min-height:3cm;
+  }
+  .grid-item1 {
+    min-height:3cm;
+  }
+  .grid-item5 {
+    min-height:3cm;
+  }
+  .info{
+    width: max-content;
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+    width: -webkit-fill-available;
+    /* min-width: 5vw; */
+    /* max-width: 13vw; */
+    padding: 5px;
+    text-align: left;
+  }
+  .paillettes{
+    font-family: 'sblad';
+    position: relative;
+    /* float: right; */
+    width: auto;
+    margin: 0px;
+  }
+  .rdvs{
+    background-color: lightgray;
+  }
+  .cours{
+    background-color: LightSalmon;
+  }
+  .expo{
+    background-color: LightPink;
+  }
+  .workshops{
+    background-color: Khaki;
+  }
+  .vacances{
+    background-color: MediumSlateBlue;
+  }
+
+  #Title{
+    position:absolute;
+    margin-left: 5mm;
+    right: 5mm;
+    top: 5px;
+    font-size: 12pt;
+    font-family: 'cmu-serif-bold';
+    color: hsl(0 0% 30% / 1);
+
+  }
+}

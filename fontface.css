@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'cmu-serif-roman';
+  src: url('cmu.serif-roman.ttf');
+}
+
+@font-face {
+  font-family: 'cmu-serif-italic';
+  src: url('cmu.serif-italic.ttf');
+}
+
+@font-face {
+  font-family: 'cmu-serif-bold';
+  src: url('cmu.serif-bold.ttf');
+}
+
+@font-face {
+  font-family: 'sblad';
+  src: url('shinebrooklikeadiamond.otf');
+}
