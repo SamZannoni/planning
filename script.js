@@ -55,7 +55,11 @@ function setup() {
   addInfo(6,"●Début de la biennale", avril, "expo", avrB);
   // fromToDate(23, 25, "23", "expo", 3, 6)
 
+  // mai
+
+
   // Juin 4
+  addInfo(4,"Départ Chambéry", juin, "autres", juinB);
   addInfo(30,"●Fin de la biennale", juin, "expo", juinB);
 
 

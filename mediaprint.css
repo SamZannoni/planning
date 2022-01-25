@@ -134,6 +134,9 @@
   .vacances{
     background-color: MediumSlateBlue;
   }
+  .autres{
+    background-color: #E8ADAA;
+  }
 
   #Title{
     position:absolute;
