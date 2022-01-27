@@ -65,7 +65,7 @@ function setup() {
 
   // Tous les mois
   // repeatInfoSameDays("Vendredi","●17h Rdv Dol recherche", "rdvs",false,juillet);
-  repeatInfoSameDays("Jeudi", "●11h-13h Séminaire UR numérique", "rdvs", true, juillet);
+  repeatInfoSameDays("Jeudi", "●10h-13h Séminaire UR numérique", "rdvs", true, juillet);
   repeatInfoSameDays("Mardi", "≃16h/17h Rdv Dol recherche??", "rdvs", true, juillet);
 
   cancelEvent(fevrier, "Jeudi", 15, 2, fevB)
