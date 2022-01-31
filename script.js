@@ -53,6 +53,14 @@ function setup() {
 
   // Avril 2
   addInfo(6,"●Début de la biennale", avril, "expo", avrB);
+  addInfo(7,"●14h-16h Conduite", avril, "autres", avrB);
+  addInfo(8,"●14h-16h Conduite", avril, "autres", avrB);
+  addInfo(11,"●13h-15h Conduite", avril, "autres", avrB);
+  addInfo(13,"●11h-13h Conduite", avril, "autres", avrB);
+  addInfo(19,"●14h-16h Conduite", avril, "autres", avrB);
+  addInfo(20,"●11h-13h Conduite", avril, "autres", avrB);
+  addInfo(25,"●14h-16h Conduite", avril, "autres", avrB);
+  addInfo(27,"●11h-13h Conduite", avril, "autres", avrB);
   // fromToDate(23, 25, "23", "expo", 3, 6)
 
   // mai
