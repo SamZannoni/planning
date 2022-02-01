@@ -38,11 +38,27 @@ function setup() {
   var juinB = 2;
 
 
+    const d = new Date();
+    let day = d.getDate();
+
+    var nombreDate = document.getElementsByClassName("nombreDate");
+    console.log(nombreDate[day])
+    nombreDate[day-1].style.borderRadius = 50+"%";
+    nombreDate[day-1].style.backgroundColor ="red";
+    nombreDate[day-1].style.color ="white";
+    nombreDate[day-1].style.padding ="5px";
+    nombreDate[day-1].style.top ="-7px";
+    nombreDate[day-1].style.width ="25px";
+    nombreDate[day-1].style.textAlign ="center";
+
+
   // Février 0
   fromToDate(12, 28, "☆Vacances de février", "vacances", fevrier, fevB)
   addInfo(1,"●Rdv Jérémie framework", fevrier, "rdvs", fevB);
   addInfo(2,"●10h-12h Magazine", fevrier, "cours", fevB);
+  addInfo(2,"●13h Réunion délégués", fevrier, "rdvs", fevB);
   addInfo(2,"●14h-17h DigitalTools", fevrier, "cours", fevB);
+  addInfo(2,"●14h30 Présentation Stéphane Lemercier", fevrier, "rdvs", fevB);
   addInfo(11,"●9h30 Présentation DigitalTools", fevrier, "cours", fevB);
 
   // Mars 1
