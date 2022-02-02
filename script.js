@@ -53,7 +53,7 @@ function setup() {
 
 
   // Février 0
-  fromToDate(12, 28, "☆Vacances de février", "vacances", fevrier, fevB)
+  fromToDate(21, 28, "☆Vacances de février", "vacances", fevrier, fevB)
   addInfo(1,"●Rdv Jérémie framework", fevrier, "rdvs", fevB);
   addInfo(2,"●10h-12h Magazine", fevrier, "cours", fevB);
   addInfo(2,"●13h Réunion délégués", fevrier, "rdvs", fevB);
@@ -90,7 +90,7 @@ function setup() {
   // Tous les mois
   // repeatInfoSameDays("Vendredi","●17h Rdv Dol recherche", "rdvs",false,juillet);
   repeatInfoSameDays("Jeudi", "●10h-13h Séminaire UR numérique", "rdvs", true, juillet);
-  repeatInfoSameDays("Mardi", "≃16h/17h Rdv Dol recherche??", "rdvs", true, juillet);
+  repeatInfoSameDays("Mardi", "16h30 Rdv Dol recherche", "rdvs", true, juillet);
 
   cancelEvent(fevrier, "Jeudi", 15, 2, fevB)
   cancelEvent(fevrier, "Jeudi", 17, 2, fevB)
