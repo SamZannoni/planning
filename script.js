@@ -38,18 +38,18 @@ function setup() {
   var juinB = 2;
 
 
-    const d = new Date();
-    let day = d.getDate();
+  const d = new Date();
+  let day = d.getDate();
 
-    var nombreDate = document.getElementsByClassName("nombreDate");
-    console.log(nombreDate[day])
-    nombreDate[day-1].style.borderRadius = 50+"%";
-    nombreDate[day-1].style.backgroundColor ="red";
-    nombreDate[day-1].style.color ="white";
-    nombreDate[day-1].style.padding ="5px";
-    nombreDate[day-1].style.top ="-7px";
-    nombreDate[day-1].style.width ="25px";
-    nombreDate[day-1].style.textAlign ="center";
+  var nombreDate = document.getElementsByClassName("nombreDate");
+  console.log(nombreDate[day])
+  nombreDate[day-1].style.borderRadius = 50+"%";
+  nombreDate[day-1].style.backgroundColor ="red";
+  nombreDate[day-1].style.color ="white";
+  nombreDate[day-1].style.padding ="5px";
+  nombreDate[day-1].style.top ="-7px";
+  nombreDate[day-1].style.width ="25px";
+  nombreDate[day-1].style.textAlign ="center";
 
 
   // Février 0
@@ -60,6 +60,8 @@ function setup() {
   addInfo(2,"●14h-17h DigitalTools", fevrier, "cours", fevB);
   addInfo(2,"●14h30 Présentation Stéphane Lemercier", fevrier, "rdvs", fevB);
   addInfo(11,"●9h30 Présentation DigitalTools", fevrier, "cours", fevB);
+  addInfo(24,"●Journée au labo NRV", fevrier, "expo", fevB);
+  addInfo(28,"●Journée au labo NRV", fevrier, "expo", fevB);
 
   // Mars 1
   addInfo(1,"·Réfectoire des nonnes réservé, montage de l'expo UR", mars, "expo", marsB);
